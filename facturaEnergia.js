@@ -24,3 +24,9 @@ const iva = function (){
 }
 
 const ivaFijo = iva()
+
+let subtotal = () => {
+    return consumo * tarifa
+}
+
+subtotal()
