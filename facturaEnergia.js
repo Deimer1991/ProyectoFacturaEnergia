@@ -30,3 +30,9 @@ let subtotal = () => {
 }
 
 subtotal()
+
+let netoPagar = () => {  
+    return subtotal() + ivaCalculado() + cargoFijo()
+}
+
+netoPagar()
