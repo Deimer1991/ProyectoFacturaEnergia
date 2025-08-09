@@ -10,3 +10,17 @@ function tarifaMensual (){
 }
 
 const tarifa = tarifaMensual();
+
+const cargoFijo = function (){
+    const valorFijo = 3500
+    return valorFijo
+}
+
+cargoFijo()
+
+const iva = function (){
+    const ivaFijo = 0.19
+    return ivaFijo
+}
+
+const ivaFijo = iva()
