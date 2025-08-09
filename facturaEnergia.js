@@ -36,3 +36,9 @@ let netoPagar = () => {
 }
 
 netoPagar()
+
+function resumenFactura(){
+    console.log(`RESUMEN DE FACTURA\n\nConsumo de energia en khw  ${consumo}\nTarifa de cobro por khw $ ${tarifa} pesos\n\nSubtotal ${subtotal()}\nIVA ${ivaCalculado()}\nCargo fijo ${cargoFijo()}\n\nTOTAL A PAGAR ${netoPagar()}`)
+}
+
+resumenFactura()
